@@ -3,4 +3,4 @@ def factorial(n: int) -> int:
         raise ValueError("n must be non-negative")
     if n in (0, 1):
         return 1
-    return n * factorial(n - 1)s
+    return n * factorial(n - 1)
